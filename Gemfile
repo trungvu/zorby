@@ -9,6 +9,9 @@ gem 'sqlite3'
 gem 'execjs'
 gem 'therubyracer'
 
+gem 'devise', '2.0.0.rc'
+gem 'omniauth', '1.0.1'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
