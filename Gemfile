@@ -6,8 +6,13 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-gem 'execjs'
-gem 'therubyracer'
+
+
+group :development do
+	gem 'execjs'
+	gem 'therubyracer'
+end
+
 
 gem 'devise', '2.0.0.rc'
 gem 'omniauth', '1.0.1'
