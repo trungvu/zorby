@@ -1,7 +1,13 @@
 Demo::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/contact"
+
+  get "pages/about"
+
   devise_for :users
 
-	root :to => 'welcome#index'
+	root :to => 'devise#registrations'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
